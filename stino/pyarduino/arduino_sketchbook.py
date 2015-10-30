@@ -54,7 +54,8 @@ class Sketchbook(base.abs_file.Dir):
 
 def has_primary_file(dir_path, project_name):
     state = False
-    exts = ['.ino', '.pde', '.cpp', '.c', '.S']
+    #exts = ['.ino', '.pde', '.cpp', '.c', '.S']
+    exts = ['.ino']
     for ext in exts:
         primary_file_name = project_name + ext
         primary_file_path = os.path.join(dir_path, primary_file_name)

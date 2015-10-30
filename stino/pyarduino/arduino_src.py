@@ -19,7 +19,8 @@ import re
 
 H_EXTS = ['.h']
 CPP_EXTS = ['.c', '.cpp', '.S']
-INO_EXTS = ['.ino', '.pde']
+#INO_EXTS = ['.ino', '.pde']
+INO_EXTS = ['.ino']
 
 whitespace = r'\s+'
 multi_line_comment = r'/\*[^*]*(?:\*(?!/)[^*]*)*\*/'

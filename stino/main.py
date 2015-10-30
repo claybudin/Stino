@@ -547,7 +547,8 @@ def send_serial_message(text):
 
 def set_status(view):
     infos = []
-    exts = ['ino', 'pde', 'cpp', 'c', '.S']
+    #exts = ['ino', 'pde', 'cpp', 'c', '.S']
+    exts = ['ino']
     file_name = view.file_name()
     if file_name and file_name.split('.')[-1] in exts:
         arduino_info = st_base.get_arduino_info()
